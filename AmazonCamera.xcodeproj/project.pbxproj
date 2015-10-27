@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EE073A81BBC5F710047FDF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE073A71BBC5F710047FDF0 /* main.m */; };
+		7EE073AB1BBC5F710047FDF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE073AA1BBC5F710047FDF0 /* AppDelegate.m */; };
+		7EE073AE1BBC5F710047FDF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE073AD1BBC5F710047FDF0 /* ViewController.m */; };
+		7EE073B11BBC5F710047FDF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE073AF1BBC5F710047FDF0 /* Main.storyboard */; };
+		7EE073B31BBC5F710047FDF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE073B21BBC5F710047FDF0 /* Images.xcassets */; };
+		7EE073B61BBC5F710047FDF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE073B41BBC5F710047FDF0 /* LaunchScreen.xib */; };
+		7EE073C21BBC5F710047FDF0 /* AmazonCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE073C11BBC5F710047FDF0 /* AmazonCameraTests.m */; };
+		7EE073D11BBDB1A70047FDF0 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE073D01BBDB1A70047FDF0 /* Constants.m */; };
+		7EE073D41BBDCCA50047FDF0 /* AWSDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE073D31BBDCCA50047FDF0 /* AWSDAO.m */; };
+		9C3AB89CA9250B48FCCA6D0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BEB0DD1455A62AFDDF8D80 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EE073BC1BBC5F710047FDF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE0739A1BBC5F710047FDF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE073A11BBC5F710047FDF0;
+			remoteInfo = AmazonCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E388A6EAA83BBD9D8D3FCC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7EE073A21BBC5F710047FDF0 /* AmazonCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE073A61BBC5F710047FDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE073A71BBC5F710047FDF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EE073A91BBC5F710047FDF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EE073AA1BBC5F710047FDF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EE073AC1BBC5F710047FDF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EE073AD1BBC5F710047FDF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EE073B01BBC5F710047FDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EE073B21BBC5F710047FDF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EE073B51BBC5F710047FDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7EE073BB1BBC5F710047FDF0 /* AmazonCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE073C01BBC5F710047FDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE073C11BBC5F710047FDF0 /* AmazonCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonCameraTests.m; sourceTree = "<group>"; };
+		7EE073CF1BBDB1A70047FDF0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../AmazonCamera/Constants.h; sourceTree = "<group>"; };
+		7EE073D01BBDB1A70047FDF0 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = ../AmazonCamera/Constants.m; sourceTree = "<group>"; };
+		7EE073D21BBDCCA50047FDF0 /* AWSDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSDAO.h; path = ../AmazonCamera/AWSDAO.h; sourceTree = "<group>"; };
+		7EE073D31BBDCCA50047FDF0 /* AWSDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDAO.m; path = ../AmazonCamera/AWSDAO.m; sourceTree = "<group>"; };
+		BAF5703B2207634616D4BBDD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D6BEB0DD1455A62AFDDF8D80 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EE0739F1BBC5F710047FDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3AB89CA9250B48FCCA6D0C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE073B81BBC5F710047FDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA75A141BDE928300B76538 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7EE073AF1BBC5F710047FDF0 /* Main.storyboard */,
+				7EE073B21BBC5F710047FDF0 /* Images.xcassets */,
+				7EE073B41BBC5F710047FDF0 /* LaunchScreen.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7EA75A151BDE92D400B76538 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EE073A91BBC5F710047FDF0 /* AppDelegate.h */,
+				7EE073AA1BBC5F710047FDF0 /* AppDelegate.m */,
+				7EE073AC1BBC5F710047FDF0 /* ViewController.h */,
+				7EE073AD1BBC5F710047FDF0 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7EE073991BBC5F710047FDF0 = {
+			isa = PBXGroup;
+			children = (
+				7EE073A41BBC5F710047FDF0 /* AmazonCamera */,
+				7EE073BE1BBC5F710047FDF0 /* AmazonCameraTests */,
+				7EE073A31BBC5F710047FDF0 /* Products */,
+				8E08FCE00AA8E07E20CD588E /* Pods */,
+				E5576404DFB62BA4D29F5926 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE073A31BBC5F710047FDF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EE073A21BBC5F710047FDF0 /* AmazonCamera.app */,
+				7EE073BB1BBC5F710047FDF0 /* AmazonCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EE073A41BBC5F710047FDF0 /* AmazonCamera */ = {
+			isa = PBXGroup;
+			children = (
+				7EA75A151BDE92D400B76538 /* ViewControllers */,
+				7EE073D61BBDCCC10047FDF0 /* Constants */,
+				7EA75A141BDE928300B76538 /* UI */,
+				7EE073D51BBDCCAE0047FDF0 /* DAO */,
+				7EE073A51BBC5F710047FDF0 /* Supporting Files */,
+			);
+			path = AmazonCamera;
+			sourceTree = "<group>";
+		};
+		7EE073A51BBC5F710047FDF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EE073A61BBC5F710047FDF0 /* Info.plist */,
+				7EE073A71BBC5F710047FDF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EE073BE1BBC5F710047FDF0 /* AmazonCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EE073BF1BBC5F710047FDF0 /* Supporting Files */,
+				7EE073C11BBC5F710047FDF0 /* AmazonCameraTests.m */,
+			);
+			path = AmazonCameraTests;
+			sourceTree = "<group>";
+		};
+		7EE073BF1BBC5F710047FDF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EE073C01BBC5F710047FDF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EE073D51BBDCCAE0047FDF0 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				7EE073D21BBDCCA50047FDF0 /* AWSDAO.h */,
+				7EE073D31BBDCCA50047FDF0 /* AWSDAO.m */,
+			);
+			name = DAO;
+			path = AmazonCameraTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		7EE073D61BBDCCC10047FDF0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7EE073CF1BBDB1A70047FDF0 /* Constants.h */,
+				7EE073D01BBDB1A70047FDF0 /* Constants.m */,
+			);
+			name = Constants;
+			path = AmazonCameraTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		8E08FCE00AA8E07E20CD588E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08E388A6EAA83BBD9D8D3FCC /* Pods.debug.xcconfig */,
+				BAF5703B2207634616D4BBDD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5576404DFB62BA4D29F5926 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6BEB0DD1455A62AFDDF8D80 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EE073A11BBC5F710047FDF0 /* AmazonCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE073C51BBC5F710047FDF0 /* Build configuration list for PBXNativeTarget "AmazonCamera" */;
+			buildPhases = (
+				B1BA121D12E1223F15905A9D /* Check Pods Manifest.lock */,
+				7EE0739E1BBC5F710047FDF0 /* Sources */,
+				7EE0739F1BBC5F710047FDF0 /* Frameworks */,
+				7EE073A01BBC5F710047FDF0 /* Resources */,
+				DF185868C21A7E88CE7AD8DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonCamera;
+			productName = AmazonCamera;
+			productReference = 7EE073A21BBC5F710047FDF0 /* AmazonCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EE073BA1BBC5F710047FDF0 /* AmazonCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE073C81BBC5F710047FDF0 /* Build configuration list for PBXNativeTarget "AmazonCameraTests" */;
+			buildPhases = (
+				7EE073B71BBC5F710047FDF0 /* Sources */,
+				7EE073B81BBC5F710047FDF0 /* Frameworks */,
+				7EE073B91BBC5F710047FDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EE073BD1BBC5F710047FDF0 /* PBXTargetDependency */,
+			);
+			name = AmazonCameraTests;
+			productName = AmazonCameraTests;
+			productReference = 7EE073BB1BBC5F710047FDF0 /* AmazonCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EE0739A1BBC5F710047FDF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Angie Chilmaza";
+				TargetAttributes = {
+					7EE073A11BBC5F710047FDF0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7EE073BA1BBC5F710047FDF0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7EE073A11BBC5F710047FDF0;
+					};
+				};
+			};
+			buildConfigurationList = 7EE0739D1BBC5F710047FDF0 /* Build configuration list for PBXProject "AmazonCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EE073991BBC5F710047FDF0;
+			productRefGroup = 7EE073A31BBC5F710047FDF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EE073A11BBC5F710047FDF0 /* AmazonCamera */,
+				7EE073BA1BBC5F710047FDF0 /* AmazonCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EE073A01BBC5F710047FDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE073B11BBC5F710047FDF0 /* Main.storyboard in Resources */,
+				7EE073B61BBC5F710047FDF0 /* LaunchScreen.xib in Resources */,
+				7EE073B31BBC5F710047FDF0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE073B91BBC5F710047FDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1BA121D12E1223F15905A9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF185868C21A7E88CE7AD8DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EE0739E1BBC5F710047FDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE073D41BBDCCA50047FDF0 /* AWSDAO.m in Sources */,
+				7EE073AE1BBC5F710047FDF0 /* ViewController.m in Sources */,
+				7EE073AB1BBC5F710047FDF0 /* AppDelegate.m in Sources */,
+				7EE073A81BBC5F710047FDF0 /* main.m in Sources */,
+				7EE073D11BBDB1A70047FDF0 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE073B71BBC5F710047FDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE073C21BBC5F710047FDF0 /* AmazonCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EE073BD1BBC5F710047FDF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EE073A11BBC5F710047FDF0 /* AmazonCamera */;
+			targetProxy = 7EE073BC1BBC5F710047FDF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EE073AF1BBC5F710047FDF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE073B01BBC5F710047FDF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EE073B41BBC5F710047FDF0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE073B51BBC5F710047FDF0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EE073C31BBC5F710047FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EE073C41BBC5F710047FDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE073C61BBC5F710047FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E388A6EAA83BBD9D8D3FCC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmazonCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EE073C71BBC5F710047FDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF5703B2207634616D4BBDD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmazonCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EE073C91BBC5F710047FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmazonCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonCamera.app/AmazonCamera";
+			};
+			name = Debug;
+		};
+		7EE073CA1BBC5F710047FDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmazonCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonCamera.app/AmazonCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EE0739D1BBC5F710047FDF0 /* Build configuration list for PBXProject "AmazonCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE073C31BBC5F710047FDF0 /* Debug */,
+				7EE073C41BBC5F710047FDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE073C51BBC5F710047FDF0 /* Build configuration list for PBXNativeTarget "AmazonCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE073C61BBC5F710047FDF0 /* Debug */,
+				7EE073C71BBC5F710047FDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE073C81BBC5F710047FDF0 /* Build configuration list for PBXNativeTarget "AmazonCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE073C91BBC5F710047FDF0 /* Debug */,
+				7EE073CA1BBC5F710047FDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EE0739A1BBC5F710047FDF0 /* Project object */;
+}
